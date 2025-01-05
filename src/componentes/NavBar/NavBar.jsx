@@ -1,26 +1,20 @@
-export const NavBar = () => {
-    return (
-        <nav>
-            <div>
-                <img src="" alt="" />
-            </div>
-            <div>
-                <ul>
-                    <li><a href="">INICIO</a></li>
-                </ul>
-                <ul>
-                    <li><a href="">ETIQUETAS</a></li>
-                </ul>
-                <ul>
-                    <li><a href="">ETIQUETAS PERSONALIZADAS</a></li>
-                </ul>
-                <ul>
-                    <li><a href="">DONDE COMPRAR</a></li>
-                </ul>
-                <ul>
-                    <li><a href="">COMENTARIOS</a></li>
-                </ul>
-            </div>
-        </nav>
-    )
+import "./NavBar-styles.css"
+import logo from "/img/logo.png"
+import React from 'react'
+
+function NavBar() {
+  return (
+    <nav className="nav-bar">
+      <div><img src={logo} alt="" className="logo"/></div>
+      <ul className="items">
+          <li><a href="">INICIO</a></li>
+          <li><a href="">ETIQUETAS</a></li>
+          <li><a href="">ETIQUETAS PERSONALIZADAS</a></li>
+          <li><a href="">DONDE COMPRAR</a></li>
+          <li><a href="">COMENTARIO</a></li>
+      </ul>
+    </nav>
+  )
 }
+
+export default NavBar;
