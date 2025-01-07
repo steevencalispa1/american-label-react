@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Sellos-styles.css"
 
 // Datos de los sellos
 const sellos = [
@@ -43,7 +44,7 @@ const SellosTextiles = () => {
   };
 
   return (
-    <div>
+    <div >
       <h1 className="title_txt">SELLOS TEXTILES PERSONALIZADOS</h1>
       <section className="container">
         {sellos.map((sello, index) => (
