@@ -1,19 +1,19 @@
 import React from 'react'
 import './App.css'
-import NavBar from './componentes/NavBar/NavBar'
+import NavBar from './componentes/NavBar'
 import Inicio from './componentes/Inicio/Inicio'
-import Nosotros from './componentes/Nosotros/Nosotros'
-import Etiquetas from './componentes/Etiquetas/Etiquetas'
+import Home from './routes/home'
+import EtiPersonalizadas from './routes/EtiPersonalizadas'
+import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
-    <>
-      <div className = "App">
-        <NavBar/>
-        <Inicio/>
-        <Nosotros/>
-        <Etiquetas/>
-      </div>
-    </>
+    <div>
+    <NavBar/>
+    <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/etiquetas-personalizadas' element={<EtiPersonalizadas/ >}/>
+    </Routes>
+    </div>
   )
 }
 

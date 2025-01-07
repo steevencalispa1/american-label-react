@@ -23,6 +23,7 @@ function Etiquetas() {
                 <p>Las etiquetas de satín tienen un brillo distintivo y una textura muy suave , lo que las hace sentir lujosas al tacto. Suelen utilizarse para prendas de alta gama, lencería y camisetas y ternos para caballero, debido a su sauvidad y apariencia elegante.</p>
             </div>
         </div>
+        <button><a href="">COMO COMPRAR</a></button>
     </section>
   )
 }

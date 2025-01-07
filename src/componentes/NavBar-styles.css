@@ -1,4 +1,4 @@
-@import "../../vars.css";
+@import "../vars.css";
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,111.3,200..1000;1,6..12,111.3,200..1000&display=swap');
 .nav-bar{
     background-color: var(--gris-principal);
@@ -21,6 +21,6 @@
     text-decoration: none;
     margin: 10px;
     color: var(--naranja-secundario);
-    font-family:  "Alumni Sans", serif;
+    font-family: "Alumni Sans", serif;
     font-size: 25px;
 }

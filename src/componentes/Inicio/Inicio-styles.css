@@ -21,6 +21,7 @@
 .fondo p{
     font-family: 'Arvo', serif; 
     text-align: justify;
+    width: 500px;
     padding: 25px;
     color: white;
 }
