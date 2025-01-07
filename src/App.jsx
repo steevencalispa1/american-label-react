@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import NavBar from './componentes/NavBar'
-import Inicio from './componentes/Inicio/Inicio'
 import Home from './routes/home'
 import EtiPersonalizadas from './routes/EtiPersonalizadas'
 import { Routes, Route } from 'react-router-dom'
@@ -16,5 +15,4 @@ function App() {
     </div>
   )
 }
-
 export default App
