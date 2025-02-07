@@ -10,6 +10,7 @@ function NavBar() {
           <li><Link to='/'>INICIO</Link></li>
           <li><Link to='/etiquetas-personalizadas'>ETIQUETAS</Link></li>
           <li><Link to='/sellos'>SELLOS</Link></li>
+          <li><Link to='/quienes-somos'>¿QUIENES SOMOS?</Link></li>
           <li><Link href="">DONDE COMPRAR</Link></li>
           <li><Link href="">COMENTARIO</Link></li>
       </ul>
